@@ -1,29 +1,99 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bistro Babushka</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonheur</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <style>
+    <style>
+
+        .item1 {
+            background-color: antiquewhite;
+            grid-column-start: span 4;
+
+        }
+
+        .item2 {
+            background-color: saddlebrown;
+            grid-column-start: 2;
+            grid-column-end: 4;
+
+        }
+
+        .item3 {
+            background-color: beige;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+        }
+
+        .item4 {
+            background-color: gold;
+            grid-column-start: span 4;
+        }
+
+
+        .forside-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 50px 150px 150px 50px;
+            grid-gap: 4px;
+        }
+
+
+/*    Computerskærm
+        .item1 {
+            background-color: antiquewhite;
+            grid-column-start: span 4;
+
+        }
+
+        .item2 {
+            background-color: saddlebrown;
+            grid-column-start: span 2;
+            grid-row-start: span 2;
+
+        }
+
+        .item3 {
+            background-color: beige;
+            grid-column-start: span 2;
+            grid-row-start: span 2;
+        }
+
+        .item4 {
+            background-color: gold;
+            grid-column-start: span 4;
+        }
+
+
+        .forside-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 50px 150px 150px 50px;
+            grid-gap: 4px;
+        }
+*/
+    </style>
+
+</head>
+
+<body>
+
+    <main class="container">
+        <section class="forside-container">
+            <div class="item1">Header</div>
+            <div class="item2">pic</div>
+            <div class="item3">content</div>
+            <div class="item4">footer</div>
+        </section>
+    </main>
 
 
 
 
-        </style>
-
-    </head>
-        <body>
 
 
 
-
-
-
-
-
-
-
-
-    </body>
+</body>
 </html>
