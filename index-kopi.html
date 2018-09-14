@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Bonheur</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+     /*    GENERELLE INDSTILLINGER */
+
+        header img {
+            max-width: 100px;
+        }
+
+
+         /*    GENERELLE SLUT */
+
+        .forside-container {
+            display: grid;
+            grid-template-columns: repeat(1, 2fr);
+            grid-gap: 4px;
+            grid-template-rows: auto auto;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .pic img {
+            max-width: 100%;
+        }
+
+        .content {
+            grid-column-start: span 2;
+            margin-left: 2%;
+        }
+
+        /*    NAV I MOBIL*/
+
+
+        @media screen and (max-width: 768px) {
+
+        .nav {
+            text-align: right;
+            margin-bottom: 10%;
+            background-color: darkred;
+
+        }
+
+            .nav a {
+            padding: 13px;
+            text-decoration: none;
+            font-size: 3vw;
+        }
+
+                .nav a:hover {
+            color: #ffffff;
+        }
+            .nav a:not(:last-child) {
+                display: none;
+            }
+            .nav a.icon {
+                float: right;
+                display: block;
+                right: 23px;
+                top: 72px;
+                position: absolute;
+
+            }
+
+            .icon {
+                color: darkred;
+            }
+
+
+            .nav.responsive {
+                position: relative;
+            }
+            .nav.responsive .icon {
+                display: none;
+            }
+            .nav.responsive a {
+                float: none;
+                display: block;
+                text-align: right;
+                color: white;
+            }
+
+        }
+
+            /*    COMPUTER */
+
+        @media screen and (min-width: 768px) {
+            .forside-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 4px;
+                grid-template-rows: auto auto;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
+            .pic img {
+                max-width: 100%;
+            }
+            .content {
+                grid-column-start: span 1;
+                text-align: center;
+              margin-left: 7%;
+            }
+
+
+            /*   NAV I COMPUTER */
+                        .icon {
+                display: none;
+            }
+
+        .nav {
+            text-align: right;
+            margin-bottom: 2%;
+            background-color: darkred;
+
+        }
+        .nav a {
+            padding: 13px;
+            text-decoration: none;
+            font-size: 1.2vw;
+            color: white;
+        }
+
+                .nav a:hover {
+            color: slateblue;
+        }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- LOGO  -->
+    <header>
+        <img src="Logoer/logo_design_blue-05.svg" alt="Logo">
+    </header>
+
+    <!-- NAV  -->
+    <nav>
+    <div class="nav" id="minNav">
+        <a href="#home">Velkommen</a>
+        <a href="#news">Menu</a>
+        <a href="#contact">Kontakt</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>
+    </div>
+    </nav>
+
+    <!-- FORSIDE  -->
+    <main class="container">
+        <section class="forside-container">
+            <div class="pic">
+                <img src="newpics/Svineriet.jpg" alt="Bistro">
+            </div>
+            <div class="content">
+                <h1>Lorem ipsum dolor</h1>
+                <p>sit amet, proin quis sociosqu consequat, elit odio hendrerit quam duis, dolor vitae, aenean ultrices taciti faucibus consectetuer sit, posuere donec fermentum. Cras eget ligula erat quia quaerat, donec diam at, suspendisse integer velit eu dui arcu. Posuere vel molestiae vestibulum mauris neque, sem integer donec, felis cursus eget id placerat, amet amet et neque magnis. Pellentesque mauris accumsan rhoncus nam in. Inceptos augue laoreet montes massa vivamus, arcu lectus vitae vel, sit aliquam et non. Mauris amet odio at nulla in magna, urna congue justo venenatis laoreet accumsan id, quam eu quis voluptatum, sapien taciti molestie conubia tempus laoreet cubilia. Atque lacus quis consequat ridiculus gravida, mauris fusce id a, scelerisque libero, sem rhoncus pede a eu. Eget euismod. Non lectus proin, minus metus morbi mauris, a rhoncus venenatis quisque eros et dolor, aliquam vestibulum pede eget, ullamcorper ac. Vitae suspendisse justo sed etiam, consectetuer sit nulla odio a, egestas platea et id dolor amet erat, nulla vitae nullam velit. Mollis suspendisse ut justo metus.</p>
+            </div>
+
+
+        </section>
+    </main>
+
+    <!-- FOOTER  -->
+    <footer>Footer</footer>
+
+
+    <!-- SCRIPT  -->
+<script>
+        function myFunction() {
+            var x = document.getElementById("minNav");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
+        h1, h2, p{
+            font-family: sans-serif;
+        }
 
         /*   MOBIL*/
 
@@ -56,7 +59,7 @@
         .forside-container {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: 60px 45px 125px 200px 50px;
+            grid-template-rows: 60px 50px auto auto 50px;
             grid-gap: 4px;
         }
 
@@ -67,7 +70,7 @@
 
 /*    NAV I MOBIL*/
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 400px) {
             .nav a:not(:last-child) {
                 display: none;
             }
@@ -81,7 +84,7 @@
             }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 400px) {
             .nav.responsive {
                 position: relative;
             }
@@ -116,26 +119,23 @@
         }
 
 
-        /*    COMPUTER*/
+        /*    COMPUTER NAV*/
 
-            @media screen and (min-width: 768px) {
+            @media screen and (min-width: 400px) {
 
                 .nav {
                     text-align: right;
-                    margin: 20px;
-
-
                 }
 
                 .nav a {
-                    color: #000000;
+                    color: #ffffff;
                     padding: 10px;
                     text-decoration: none;
                     font-size: 16px;
                 }
 
                 .nav a:hover {
-                    color: #ffffff;
+                    color: #000000;
                 }
 
                 .item1 {
@@ -144,29 +144,36 @@
 
         }
 
+                /*    COMPUTER*/
+
         .item2 {
-            background-color: saddlebrown;
             grid-column-start: span 2;
             grid-row-start: span 2;
+            background-color: bisque;
 
         }
                 .item2 img {
-            max-width: 100%;
+            width: 100%;
         }
 
         .item3 {
-            background-color: beige;
             grid-column-start: span 2;
             grid-row-start: span 2;
         }
+                .item3 h1{
+                    font-size: 30px;
+                }
+                .item3 p{
+                    font-size: 16px;
+                }
 
         .item4 {
-            background-color: gold;
+            background-color: darkgray;
             grid-column-start: span 4;
         }
 
         .item5 {
-            background-color: tan;
+            background-color: ;
             grid-column-start: 1;
             grid-row-start: 1;
         }
@@ -179,7 +186,7 @@
         .forside-container {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: 50px 50px 85px 150px 50px;
+            grid-template-rows: 60px 40px 85px 390px 50px;
             grid-gap: 4px;
         }
         }
