@@ -130,10 +130,10 @@
 
     <!-- MENU  -->
     <div>
-        <button class="menu-item" data-overkategori="alle">Alle madvarer</button>
+        <button class="menu-item" data-overkategori="alle">Hele menukortet</button>
            <button class="menu-item" data-overkategori="Charcuterie">Charcuterie</button>
            <button class="menu-item" data-overkategori="Vin">Vin</button>
-           <button class="menu-item" data-overkategori="Tasting menu">Dessert</button>
+           <button class="menu-item" data-overkategori="Tasting menu">Tasting Menu</button>
 
 </div>
 
@@ -176,7 +176,7 @@
 //    SCRIPT MENU
 
     let dest = document.querySelector(".data-container"), madvarer,
-           kategoriFilter="alle"; //** filter-variabel
+           overkategoriFilter="alle"; //** filter-variabel
 
         document.addEventListener("DOMContentLoaded", hentJSON);
 
@@ -196,7 +196,7 @@
        });
        function filtrering(){
            dest.textContent= "";
-           kategoriFilter=this.getAttribute("data-overkategori");
+           overkategoriFilter=this.getAttribute("data-overkategori");
            visMadvarer();
        }
 
@@ -208,7 +208,7 @@
 
             madvarer.forEach(madvare => {
 
-                if (madvare.kategori==kategoriFilter || kategoriFilter=="alle"){
+                if (madvare.overkategori==overkategoriFilter || overkategoriFilter=="alle"){
 
                 // Lav en klon af template
                 let klon = temp.cloneNode(true).content;
@@ -219,7 +219,7 @@
                 klon.querySelector(".data-kortbeskrivelse").textContent = madvare.kortbeskrivelse;
 //                klon.querySelector(".data-langbeskrivelse").textContent = madvare.langbeskrivelse;
                 klon.querySelector(".data-overkategori").textContent = madvare.kategori;
-                klon.querySelector("img").src= "newpics" + madvare.billede + ".jpg";
+                klon.querySelector("img").src= "newpics/" + madvare.billede + ".jpg";
 
 //                    klon.querySelector("img").addEventListener("click", ()=>{
 //                      window.location.href="index-single.html?id=" + madvare.id;
