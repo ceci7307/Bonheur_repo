@@ -2,7 +2,7 @@
   {
     "navn": "Charcuterie anretning for 1",
     "pris": 120,
-    "id": "",
+    "id": 1,
     "overkategori": "Charcuterie",
     "underkategori": "",
     "kortbeskrivelse": "Kokkens udvalg af lækre franske oste, pølser og syltede snacks. Serveres med franks nybagt brød.",
@@ -12,7 +12,7 @@
   {
     "navn": "Charcuterie anretning for 2",
     "pris": 200,
-    "id": "",
+    "id": 2,
     "overkategori": "Charcuterie",
     "underkategori": "",
     "kortbeskrivelse": "Kokkens udvalg af lækre franske oste, pølser og syltede snacks. Serveres med franks nybagt brød.",
@@ -22,7 +22,7 @@
   {
     "navn": "Luksus Charcuterie anretning for 1",
     "pris": 159,
-    "id": "",
+    "id": 3,
     "overkategori": "Charcuterie",
     "underkategori": "",
     "kortbeskrivelse": "Kokkens udvalg af køkkenets absolut bedste franske oste og pølser. Serveres med nybagt fransk brød, saltede- og syltede snacks.",
@@ -32,7 +32,7 @@
   {
     "navn": "Luksus Charcuterie anretning for 2",
     "pris": 245,
-    "id": "",
+    "id": 4,
     "overkategori": "Charcuterie",
     "underkategori": "",
     "kortbeskrivelse": "Kokkens udvalg af køkkenets absolut bedste franske oste og pølser. Serveres med nybagt fransk brød, saltede- og syltede snacks.",
@@ -42,7 +42,7 @@
   {
     "navn": "Udvalg af franske oste",
     "pris": 85,
-    "id": "",
+    "id": 5,
     "overkategori": "Charcuterie",
     "underkategori": "",
     "kortbeskrivelse": "Kokkens udvalg af 3 gode oste fra det Sydlige Frankrig. Serveres med nødder og oliven.",
@@ -52,7 +52,7 @@
   {
     "navn": "Luksus udvalg af franske oste",
     "pris": 110,
-    "id": "",
+    "id": 6,
     "overkategori": "Charcuterie",
     "underkategori": "",
     "kortbeskrivelse": "Kokkens udvalg af 5 gode oste fra det Sydlige Frankrig. Serveres med brød, nødder og oliven.",
@@ -62,7 +62,7 @@
   {
     "navn": "Franske pølser",
     "pris": 90,
-    "id": "",
+    "id": 7,
     "overkategori": "Charcuterie",
     "underkategori": "",
     "kortbeskrivelse": "Kokkens udvalg af køkkenets bedste pølser. Der serveres 3 forskellige slags med nybagt brød.",
@@ -72,7 +72,7 @@
   {
     "navn": "Paté",
     "pris": 90,
-    "id": "",
+    "id": 8,
     "overkategori": "Charcuterie",
     "underkategori": "",
     "kortbeskrivelse": "Hjemmelavet fransk paté på brød med krydderier og citron",
@@ -82,7 +82,7 @@
   {
     "navn": "Tartar",
     "pris": 85,
-    "id": "",
+    "id": 9,
     "overkategori": "Charcuterie",
     "underkategori": "",
     "kortbeskrivelse": "Hjemmelavet oksetartar med syltede rødløg, svampe, kapers og krydderier.",
@@ -92,7 +92,7 @@
   {
     "navn": "Les Peyrautins, Pinot Noir",
     "pris": 300,
-    "id": "",
+    "id": 10,
     "overkategori": "Vin",
     "underkategori": "Rødvin",
     "kortbeskrivelse": "Endeligt en betalbar pinot noir der hverken er ambitiøs eller selvhøjtidelig; Les Peyrautins Pinot Noir er en dejlig, drikkevenlig humørspreder. Pinot noir er mere end blot den røde Bourgogne-drue; den er forsøgt dyrket over hele verden med svingende held %u2013 oftest uden! I det sydvestlige Frankrig har druen imidlertid opbygget sin egen identitet, en mere demokratisk stil, der ganske vist udviser mindre elegance end i Bourgogne, men til gengæld samtidigt med en mindre skrøbelig frugt end arnestedets.",
@@ -102,7 +102,7 @@
   {
     "navn": "Domaine Cordier Bourgogne Blanc %u201CJean de la Vigne%u201D 2014",
     "pris": 300,
-    "id": "",
+    "id": 11,
     "overkategori": "Vin",
     "underkategori": "Hvidvin",
     "kortbeskrivelse": "Domaine Albert Boxler Riesling Grand Cru Brand 2013 åbner med en klar og præcis duft af abrikos og hvid nektariner. Smagen udviser en pulserende finesse og en elegance i stilen, men også karakter, en vævet tekstur med muskler og kraft og en meget kompakt struktur. Eftersmagen er meget meget lang og kompleks med et markant syreindhold og en perfekt balance. En stor Riesling!",
@@ -112,7 +112,7 @@
   {
     "navn": "A. Robert Champagne Brut Rosé",
     "pris": 700,
-    "id": "",
+    "id": 12,
     "overkategori": "Vin",
     "underkategori": "Champagne",
     "kortbeskrivelse": "Denne laksefarvede champagne er indbegrebet af elegance. Næsen afslører med det samme, at vi har den ægte vare i glasset. Diskret aroma af gær og markante toner af kaffe og ristet rugbrød med fine ædle og vedvarende bobler. Meget overbevisende og rig på nuancer i både duft og smag. Denne vin har man lyst til at drikke igen og igen.",
@@ -122,7 +122,7 @@
   {
     "navn": "A. Robert Champagne",
     "pris": 450,
-    "id": "",
+    "id": 13,
     "overkategori": "Vin",
     "underkategori": "Champagne",
     "kortbeskrivelse": "A. Robert champagne er på en gang gamle traditioner, men er samtidig et udtryk for super elegance og fremsynethed.",
@@ -132,7 +132,7 @@
   {
     "navn": "Tasting menu",
     "pris": 300,
-    "id": "",
+    "id": 14,
     "overkategori": "Tasting menu",
     "underkategori": "",
     "kortbeskrivelse": "Charcuterie anretning for 2 samt 2 passende vine pr. person.",
@@ -142,7 +142,7 @@
   {
     "navn": "Delbeaux, Cabernet Sauvignon",
     "pris": 300,
-    "id": "",
+    "id": 15,
     "overkategori": "Vin",
     "underkategori": "Rødvin",
     "kortbeskrivelse": "Indbydende Cabernet Sauvignon fra det varme Languedoc-Roussillon. Duften er fyldt med vilde bær og et elegante strejf af krydderier. Smagen tilbyder masser af brombær, mørke kirsebær og solbær, der slutter med en flot og blød eftersmag.",
@@ -152,7 +152,7 @@
   {
     "navn": "Domaine Aigle, Pinot Noir",
     "pris": 400,
-    "id": "",
+    "id": 16,
     "overkategori": "Vin",
     "underkategori": "Rødvin",
     "kortbeskrivelse": "Duften har toner af brombær, vilde jordbær og søde krydderier. Smagen er elegant med masser af lyse bær i eftersmagen.",
@@ -162,7 +162,7 @@
   {
     "navn": "La Croisade, Merlot",
     "pris": 250,
-    "id": "",
+    "id": 17,
     "overkategori": "Vin",
     "underkategori": "Rødvin",
     "kortbeskrivelse": "I det sydvestligste Frankrig hører producenten hjemme i pittoreske Carcassonne, hvis fantastiske fæstning er på UNESCOs verdensarvsliste. Inspirationen til navnet 'La Croisade' stammer dels fra det punkt hvor to historiske færdselsårer krydsede hinanden mellem Montpellier og Perpignan, men også fra Katharerne, som i især 1300-tallet var meget dominerende i Occitanien (det nuværende syd-vestlige Frankrig) og havde det på flasken afbillede kors som symbol.",
@@ -172,7 +172,7 @@
   {
     "navn": "Domaine Albert Boxler Riesling Grand Cru Brand 2013",
     "pris": 250,
-    "id": "",
+    "id": 18,
     "overkategori": "Vin",
     "underkategori": "Hvidvin",
     "kortbeskrivelse": "Domaine Albert Boxler Riesling Grand Cru Brand 2013 åbner med en klar og præcis duft af abrikos og hvid nektariner. Smagen udviser en pulserende finesse og en elegance i stilen, men også karakter, en vævet tekstur med muskler og kraft og en meget kompakt struktur. Eftersmagen er meget meget lang og kompleks med et markant syreindhold og en perfekt balance. En stor Riesling!",
@@ -182,7 +182,7 @@
   {
     "navn": "Domaine Albert Boxler Riesling 2014",
     "pris": 275,
-    "id": "",
+    "id": 19,
     "overkategori": "Vin",
     "underkategori": "Hvidvin",
     "kortbeskrivelse": "Domaine Albert Boxler Riesling 2014 har en smuk blomstret duft blandet med gule kødfulde frugter, citrus og fersken. Forførende og aromatisk i smagen med meget fine mineralske udtryk og en pikant og lang finish. Er stadig en ung vin.",
