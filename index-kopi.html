@@ -1,154 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
     <head>
     <title>Bonheur</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-     /*    GENERELLE INDSTILLINGER */
-
-        header img {
-            max-width: 100px;
-        }
-
-
-         /*    GENERELLE SLUT */
-
-        .forside-container {
-            display: grid;
-            grid-template-columns: repeat(1, 2fr);
-            grid-gap: 4px;
-            grid-template-rows: auto auto;
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-
-        .pic img {
-            max-width: 100%;
-        }
-
-        .content {
-            grid-column-start: span 2;
-            margin-left: 2%;
-        }
-
-        /*    NAV I MOBIL*/
-
-
-        @media screen and (max-width: 768px) {
-
-        .nav {
-            text-align: right;
-            margin-bottom: 10%;
-            background-color: darkred;
-
-        }
-
-            .nav a {
-            padding: 13px;
-            text-decoration: none;
-            font-size: 3vw;
-        }
-
-                .nav a:hover {
-            color: #ffffff;
-        }
-            .nav a:not(:last-child) {
-                display: none;
-            }
-            .nav a.icon {
-                float: right;
-                display: block;
-                right: 23px;
-                top: 72px;
-                position: absolute;
-
-            }
-
-            .icon {
-                color: darkred;
-            }
-
-
-            .nav.responsive {
-                position: relative;
-            }
-            .nav.responsive .icon {
-                display: none;
-            }
-            .nav.responsive a {
-                float: none;
-                display: block;
-                text-align: right;
-                color: white;
-            }
-
-        }
-
-            /*    COMPUTER */
-
-        @media screen and (min-width: 768px) {
-            .forside-container {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                grid-gap: 4px;
-                grid-template-rows: auto auto;
-                margin-left: 10%;
-                margin-right: 10%;
-            }
-
-            .pic img {
-                max-width: 100%;
-            }
-            .content {
-                grid-column-start: span 1;
-                text-align: center;
-              margin-left: 7%;
-            }
-
-
-            /*   NAV I COMPUTER */
-                        .icon {
-                display: none;
-            }
-
-        .nav {
-            text-align: right;
-            margin-bottom: 2%;
-            background-color: darkred;
-
-        }
-        .nav a {
-            padding: 13px;
-            text-decoration: none;
-            font-size: 1.2vw;
-            color: white;
-        }
-
-                .nav a:hover {
-            color: slateblue;
-        }
-        }
-    </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style-forside.css">
 </head>
 
 <body>
 
     <!-- LOGO  -->
     <header>
-        <img src="Logoer/logo_design_blue-05.svg" alt="Logo">
+        <a href="index-kopi.html"><img src="Logoer/logo_design-04.svg" alt="Logo"></a>
     </header>
 
     <!-- NAV  -->
     <nav>
-    <div class="nav" id="minNav">
-        <a href="#home">Velkommen</a>
-        <a href="#news">Menu</a>
-        <a href="#contact">Kontakt</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <div class="nav" id="minNav">
+            <a href="index-kopi.html">Velkommen</a>
+            <a href="index-modal.html">Menu</a>
+            <a href="#info">Kontakt</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i></a>
-    </div>
+        </div>
     </nav>
 
     <!-- FORSIDE  -->
@@ -158,8 +34,8 @@
                 <img src="newpics/Svineriet.jpg" alt="Bistro">
             </div>
             <div class="content">
-                <h1>Lorem ipsum dolor</h1>
-                <p>sit amet, proin quis sociosqu consequat, elit odio hendrerit quam duis, dolor vitae, aenean ultrices taciti faucibus consectetuer sit, posuere donec fermentum. Cras eget ligula erat quia quaerat, donec diam at, suspendisse integer velit eu dui arcu. Posuere vel molestiae vestibulum mauris neque, sem integer donec, felis cursus eget id placerat, amet amet et neque magnis. Pellentesque mauris accumsan rhoncus nam in. Inceptos augue laoreet montes massa vivamus, arcu lectus vitae vel, sit aliquam et non. Mauris amet odio at nulla in magna, urna congue justo venenatis laoreet accumsan id, quam eu quis voluptatum, sapien taciti molestie conubia tempus laoreet cubilia. Atque lacus quis consequat ridiculus gravida, mauris fusce id a, scelerisque libero, sem rhoncus pede a eu. Eget euismod. Non lectus proin, minus metus morbi mauris, a rhoncus venenatis quisque eros et dolor, aliquam vestibulum pede eget, ullamcorper ac. Vitae suspendisse justo sed etiam, consectetuer sit nulla odio a, egestas platea et id dolor amet erat, nulla vitae nullam velit. Mollis suspendisse ut justo metus.</p>
+                <h1>Velkommen til Bonheur</h1>
+                <p>Bonheur er en fransk charcuterie- og vinbar. Alle ansatte er vinspecialister og stedet ønsker at være bedst kendt for deres fantastike vine og viden om samme. <br>sit amet, proin quis sociosqu consequat, elit odio hendrerit quam duis, dolor vitae, aenean ultrices taciti faucibus consectetuer sit, posuere donec fermentum. Cras eget ligula erat quia quaerat, donec diam at, suspendisse integer velit eu dui arcu. Posuere vel molestiae vestibulum mauris neque, sem integer donec, felis cursus eget id placerat, amet amet et neque magnis. Pellentesque mauris accumsan rhoncus nam in. Inceptos augue laoreet montes massa vivamus, arcu lectus vitae vel, sit aliquam et non. Mauris amet odio at nulla in magna, urna congue justo venenatis laoreet accumsan id, quam eu quis voluptatum, sapien taciti molestie conubia tempus laoreet cubilia. Atque lacus quis consequat ridiculus gravida, mauris fusce id a, scelerisque libero, sem rhoncus pede a eu. Eget euismod. Non lectus proin, minus metus morbi mauris, a rhoncus venenatis quisque eros et dolor, aliquam vestibulum pede eget, ullamcorper ac. Vitae suspendisse justo sed etiam, consectetuer sit nulla odio a, egestas platea et id dolor amet erat, nulla vitae nullam velit. Mollis suspendisse ut justo metus.</p>
             </div>
 
 
@@ -167,11 +43,32 @@
     </main>
 
     <!-- FOOTER  -->
-    <footer>Footer</footer>
+
+    <footer>
+        <section class="footer-container">
+            <div class="adresse">
+                <h3>Adresse</h3>
+                <p>Ragnagergade 12, 1721 København V</p>
+            </div>
+            <div class="kontakt">
+                <h3><a name="info">Kontakt</a></h3>
+                <p>Ring til os på:<br> +45 69 38 84 21</p>
+                <p>Mail os på: <a href="mailto:info@bonheur.dk">info@bonheur.dk</a></p>
+            </div>
+            <div class="mereinfo">
+                <h3>Ydligere info</h3>
+                <p>CVR: 2837463</p>
+                <p>Tilmeld nyhedsbrev</p>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+
+        </section>
+    </footer>
 
 
     <!-- SCRIPT  -->
-<script>
+    <script>
         function myFunction() {
             var x = document.getElementById("minNav");
             if (x.className === "nav") {
